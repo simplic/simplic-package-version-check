@@ -99,9 +99,7 @@ namespace Simplic.PackageVersionCheck
 
             foreach (var failedLine in failedPackages)
                 WriteLine($" {failedLine}", System.Drawing.Color.Red);
-
-            Console.ReadLine();
-
+            
             if (failedPackages.Count == 0)
                 Environment.Exit(1);
         }
