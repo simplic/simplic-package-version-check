@@ -4,3 +4,11 @@ Contains a tool that checks whether the references and installed package has the
 parameter as first argument or enter it in the console application.
 
 The application searches for \*.csproj and packages.config files and compares the version between the references and installed package/assembly.
+
+## Start and insert path
+
+![img/Start.png](img/Start.png)
+
+## Execute and return report
+
+![img/Report.png](img/Report.png)
